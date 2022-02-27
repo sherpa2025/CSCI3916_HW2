@@ -2,6 +2,7 @@
 CSC3916 HW2
 File: Server.js
 Description: Web API scaffolding for Movie API
+Modified: Nima Sherpa
  */
 
 var express = require('express');
