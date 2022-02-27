@@ -153,6 +153,9 @@ router.route('/movies')
             res.send("Request HTTP method not supported.");
         }
     );
+router.all('/', function (req, res) {
+    res.json({success: false, info: 'IT DOES NOT SUPPORT HTTP METHOD.'});
+)};
 
 
 app.use('/', router);
