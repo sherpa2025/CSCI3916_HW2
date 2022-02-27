@@ -155,7 +155,7 @@ router.route('/movies')
     );
 router.all('/', function (req, res) {
     res.json({success: false, info: 'IT DOES NOT SUPPORT HTTP METHOD.'});
-)};
+});
 
 
 app.use('/', router);
