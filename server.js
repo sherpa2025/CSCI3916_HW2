@@ -85,7 +85,6 @@ function requestJSONObjectForMovieRequirement(req,reference_num)
         status:200,
         message:req_message,
         headers:req.headers,
-        query:req.query,
         env:process.env.UNIQUE_KEY
     };
 
